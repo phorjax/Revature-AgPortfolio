@@ -1,8 +1,8 @@
 angular
     .module('resume')
     .component('resume', {
-        templateUrl: 'resume/resumeTemplate.html',
+        templateUrl: 'resume/resume.template.html',
         controller: function myComponentController() {
-            this.name = 'John Doe';
+            this.variable = 'useless variable';
         }
     });

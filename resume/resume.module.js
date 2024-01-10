@@ -1,4 +1,4 @@
 angular.module('resume', [
     'myHeader',
-    'mainComp'
+    'body'
 ]);
